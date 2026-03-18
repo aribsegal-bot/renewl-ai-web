@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>renewl.ai | Predictive Commercial Real Estate Intelligence</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-color: #030712; /* Very dark slate/blue */
+            color: #ffffff;
+            font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-image: 
+                radial-gradient(circle at 20% 40%, rgba(37, 99, 235, 0.08), transparent 40%),
+                radial-gradient(circle at 80% 70%, rgba(71, 85, 105, 0.15), transparent 40%);
+        }
+        .glow-text {
+            text-shadow: 0 0 30px rgba(255, 255, 255, 0.15);
+        }
+        .glass-panel {
+            background: rgba(15, 23, 42, 0.4);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(12px);
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col justify-center items-center relative overflow-hidden antialiased">
+    
+    <!-- Background Grid (Subtle Corporate) -->
+    <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCI+CjxyZWN0IHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgZmlsbD0ibm9uZSIvPgo8cGF0aCBkPSJNMCAwaDQwdjQwSDB6IiBmaWxsPSJub25lIi8+CjxwYXRoIGQ9Ik0wIDAuNWg0ME0wIDIwLjVoNDBNMCAlMjAlMjBIMTBNMCA0MC41aDQwTTAgLjV2NDBNMjAgLjV2NDBNNDAgLjV2NDAiIHN0cm9rZT0icmdiYSwyNTUsMjU1LDI1NSwwLjAxKSIgc3Ryb2tlLXdpZHRoPSIxIi8+Cjwvc3ZnPg==')] opacity-50 z-0"></div>
+
+    <!-- Optional CFS subtle branding connection -->
+    <div class="absolute top-8 left-8 z-10 opacity-50 hover:opacity-100 transition duration-300">
+        <span class="text-xs tracking-[0.2em] font-bold text-gray-400 uppercase">A CFS Technology</span>
+    </div>
+
+    <div class="relative z-10 w-full max-w-3xl px-6 text-center">
+        <!-- Logo / Domain -->
+        <h1 class="text-5xl md:text-7xl font-black tracking-tighter mb-4 glow-text text-white">
+            renewl<span class="text-[#3b82f6]">.ai</span>
+        </h1>
+        
+        <!-- Tagline -->
+        <p class="text-xl md:text-3xl font-light text-slate-300 mb-6 tracking-tight">
+            Predictive Intelligence for Commercial Real Estate.
+        </p>
+        
+        <!-- Subtext -->
+        <p class="text-lg text-slate-400 mb-12 max-w-2xl mx-auto leading-relaxed">
+            Next-generation machine learning models for tenant retention, spatial clustering, and portfolio risk forecasting. 
+            <br class="hidden md:block">Currently in private beta.
+        </p>
+
+        <!-- Waitlist Form -->
+        <div class="max-w-md mx-auto glass-panel p-2 rounded-xl shadow-2xl">
+            <form action="#" method="POST" class="flex flex-col sm:flex-row gap-2" onsubmit="event.preventDefault(); alert('Thanks for your interest. We will be in touch.');">
+                <input type="email" name="email" placeholder="Enter your work email" required 
+                       class="flex-1 bg-black/40 border border-slate-700/50 px-4 py-3 rounded-lg text-white focus:outline-none focus:border-blue-500 transition placeholder-slate-500">
+                <button type="submit" 
+                        class="bg-[#3b82f6] text-white font-semibold tracking-wide py-3 px-6 rounded-lg hover:bg-blue-600 transition whitespace-nowrap shadow-lg shadow-blue-500/20">
+                    Request Access
+                </button>
+            </form>
+        </div>
+        
+        <p class="text-sm text-slate-500 mt-8">
+            Enterprise inquiries: <a href="mailto:ari@cfsnnn.com" class="text-slate-300 hover:text-white transition underline decoration-slate-600 underline-offset-4">contact us</a>.
+        </p>
+    </div>
+
+    <!-- Footer -->
+    <div class="absolute bottom-6 w-full text-center z-10">
+        <p class="text-xs text-slate-600 font-mono tracking-widest">&copy; 2026 COMMERCIAL FORECASTING SOLUTIONS</p>
+    </div>
+
+</body>
+</html>
